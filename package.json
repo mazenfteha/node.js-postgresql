@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mazenfteha/node.js-postgresql/issues"
   },
-  "homepage": "https://github.com/mazenfteha/node.js-postgresql#readme"
+  "homepage": "https://github.com/mazenfteha/node.js-postgresql#readme",
+  "dependencies": {
+    "pg": "^8.11.0"
+  }
 }
