@@ -9,7 +9,7 @@ const client = new Client({
 
 client.connect()
 .then(() => console.log("Connected successfuly"))
-.then(() => client.query("select * from employees where name = $1",["Kylie"]))
+.then(() => client.query("select * from employees"))
 .then(results => console.table(results.rows))
 .catch(e => console.log(e))
 .finally(() => client.end())
