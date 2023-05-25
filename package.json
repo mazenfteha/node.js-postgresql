@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "fullTable":"node fullTable"
+    "fullTable":"node fullTable",
+    "asyncfullTable":"node asyncFullTable"
   },
   "repository": {
     "type": "git",
